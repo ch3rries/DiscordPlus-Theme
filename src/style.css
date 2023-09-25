@@ -1,0 +1,107 @@
+@import url("https://fontlibrary.org//face/opendyslexic");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Inter&display=swap");
+
+:root {
+  --Open-Sans: "DM Sans";
+  --OpenDyslexic: "OpenDyslexic3Regular";
+  --Inter: "Inter";
+}
+
+/* Change Font */
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+a,
+p,
+li,
+ul,
+ol,
+div {
+  font-family: var(--font);
+  /* Space letters for better readability*/
+}
+
+/* Make avatars/servers rounded square */
+.avatar-2e8lTP,
+.wrapperSimple-2SFl9K,
+.folderIconWrapper-1oRIZr,
+.voiceAvatar-lRbblo,
+foreignObject:not(
+    foreignObject[mask="url(#svg-mask-channel-call-control-button)"]
+  ) {
+  border-radius: var(--rounded_edge_size);
+  background-color: var(--background);
+  mask: none;
+}
+
+.border-2BJQjd,
+.avatarSpeaking-36V2PN {
+  border-radius: var(--rounded_edge_size);
+  mask: none;
+}
+
+/* For tiny server icons in folders because they're too tiny */
+.closedFolderIconWrapper-3tRb2d div,
+.avatar-3FKimL {
+  border-radius: calc(var(--rounded_edge_size) / 1.5);
+}
+
+/* Markdown tweaks */
+
+/* Bold/Italics */
+em strong span {
+  color: var(--special_font_color);
+  font-size: calc(100% * 1.4);
+}
+
+/* Italics */
+em span {
+  color: var(--special_font_color);
+}
+
+/* Bolded */
+strong span {
+  color: var(--special_font_color);
+  font-size: calc(100% * 1.25);
+}
+
+/* Header 1 */
+h1 span span {
+  color: var(--tri_1);
+}
+
+/* Header 2 */
+h2 span span {
+  color: var(--tri_2);
+}
+
+/* Header 3 */
+h3 span span {
+  color: var(--tri_3);
+}
+
+/* Things to hide */
+
+/* Nitro premium badge */
+a[href="/store"] {
+  display: var(--hide-premium-button);
+}
+
+/* Explore servers */
+foreignObject[mask="url(#a57727f6-4b76-4b3f-b2e8-b702c3c0b4da)"] {
+  display: var(--hide-explore-button);
+}
+
+/* Video call button */
+div[aria-label="Start Video Call"] {
+  display: var(--hide-video-button);
+}
+
+/* Help Button */
+a[href="https://support.discord.com"]
+{
+  display: var(--hide-help-button);
+}

@@ -1,0 +1,37 @@
+@import url(src/style.css);
+
+/*
+ * @name Discord+
+ * @author ch3rries
+ * @version 2.0
+ * @description Customizable and lightweight theme for utilitarian users.
+ * @source 
+ */
+
+:root {
+  /* Configuration */
+  --font: var(--DM-Sans); /* Font */
+
+  /* You can load fonts installed locally */
+  /* Available pre-loaded fonts: */
+  /*
+   * DM Sans var(--DM-Sans)
+   * Open Dyslexic var(--OpenDyslexic)
+   * Inter var(--Inter)
+  */
+
+  --rounded_edge_size: 8px; /* Roundness of rounded corners */
+
+  --background: #313338; /* Background for transparent avatars */
+
+  --special_font_color: #c6cee2; /* Color of bolded and italic text */
+  --tri_1: #e2c6dc; /* Color of markdown heading 1 */
+  --tri_2: #e2dac6; /* Color of markdown heading 2 */
+  --tri_3: #c6e2cc; /* Color of markdown heading 3 */
+
+  /* Hide UI Elements, "block" to show, "none" to hide */
+  --hide-premium-button: none; /* Hides the Discord Nitro tab in servers, you are still able to purchase Nitro within the billing menu */
+  --hide-video-button: none; /* Hides the video call button in group chats */
+  --hide-help-button: none; /* Hides the help button */
+  --hide-explore-button: none; /* Hides the button that allows you to look through Discord servers */
+}

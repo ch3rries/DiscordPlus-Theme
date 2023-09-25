@@ -1,8 +1,7 @@
 @import url("https://fontlibrary.org//face/opendyslexic");
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 :root {
-  --DM-Sans: "DM Sans";
   --OpenDyslexic: "OpenDyslexic3Regular";
   --Inter: "Inter";
 }

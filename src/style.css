@@ -103,3 +103,10 @@ a[href="https://support.discord.com"]
 {
   display: var(--hide-help-button);
 }
+
+/* Fixes */
+
+/* Make status boxes in status selector circles */
+.status-3cqfT9 {
+  border-radius: 50%;
+}

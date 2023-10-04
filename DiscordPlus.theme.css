@@ -10,11 +10,12 @@
 
 :root {
   /* Configuration */
-  --font: var(--DM-Sans); /* Font */
+  --font: inherit; /* Font */
 
   /* You can load fonts installed locally */
   /* Available pre-loaded fonts: */
   /*
+   * inherit for none
    * Open Dyslexic var(--OpenDyslexic)
    * Inter var(--Inter)
   */

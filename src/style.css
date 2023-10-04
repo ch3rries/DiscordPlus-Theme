@@ -19,7 +19,7 @@ li,
 ul,
 ol,
 div {
-  font-family: inherit;
+  font-family: var(--font);
   /* Space letters for better readability*/
 }
 

@@ -19,7 +19,7 @@ li,
 ul,
 ol,
 div {
-  font-family: ;
+  font-family: none;
   /* Space letters for better readability*/
 }
 
@@ -32,7 +32,6 @@ foreignObject:not(
     foreignObject[mask="url(#svg-mask-channel-call-control-button)"]
   ) {
   border-radius: var(--rounded_edge_size);
-  background-color: var(--background);
   mask: none;
 }
 
